@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-07 13:49:00
+Makelog started: 2023-07-07 14:35:23
 Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
@@ -16,6 +16,6 @@ Inputs contain missing values. Dropping rows with missing observations.
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-07 13:49:04
+Makelog ended: 2023-07-07 14:35:26
 Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
 --------------------------------------------------------------------------------
