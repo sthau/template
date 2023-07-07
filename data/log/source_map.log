@@ -1,4 +1,4 @@
 destination | source
-input/lib | /Users/jccp/Desktop/template/lib
-input/tv.csv | /Users/jccp/Desktop/template/raw/tv.csv
-input/chips.csv | /Users/jccp/Desktop/template/raw/chips.csv
+input/lib | /Users/Sapthau/Desktop/template.nosync/lib
+input/tv.csv | /Users/Sapthau/Desktop/template.nosync/raw/tv.csv
+input/chips.csv | /Users/Sapthau/Desktop/template.nosync/raw/chips.csv
