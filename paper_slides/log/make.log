@@ -1,10 +1,12 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-07 14:39:20
+Makelog started: 2023-07-07 14:41:29
 Working directory: /Users/Sapthau/Desktop/template.nosync/paper_slides
 --------------------------------------------------------------------------------
 Input copies successfully created!
 External copies successfully created!
 Source logs successfully written!
+WARNING! The following target files have been modified according to git status:
+/Users/Sapthau/Desktop/template.nosync/data/output/chips_sold.pdf
 Version logs successfully written!
 Executing command: `lyx -e pdf2 "/Users/Sapthau/Desktop/template.nosync/paper_slides/code/paper.lyx"`
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
@@ -50,6 +52,6 @@ L3 programming layer <2022-02-24>
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-07 14:39:27
+Makelog ended: 2023-07-07 14:41:36
 Working directory: /Users/Sapthau/Desktop/template.nosync/paper_slides
 --------------------------------------------------------------------------------
