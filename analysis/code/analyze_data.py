@@ -7,10 +7,25 @@ def main():
     df = import_data()
     fit = run_regression(df)
     formatted = format_model(fit)
-    
+
     with open('output/regression.csv', 'w') as f:
         f.write('<tab:regression>' + '\n')
         formatted.to_csv(f, sep = '\t', index = False, header = False)
+
+    # subset df to years greater than or equal to 1960
+    df_subset = df.reset_index().copy()
+    df_subset = df_subset[df_subset['year'] >= 1960]
+
+    # fit new model, format
+    fit_subset = run_regression(df_subset)
+    formatted_subset = format_model(fit_subset)
+
+    # write to file
+    with open('output/regression_post1960.csv', 'w') as f:
+        f.write('<tab:regression_post1960>' + '\n')
+        formatted_subset.to_csv(f, sep = '\t', index = False, header = False)
+    
+   
     
 def import_data():
     df = pd.read_csv('input/data_cleaned.csv')

@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-07 11:40:04
+Makelog started: 2023-07-07 13:49:00
 Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
@@ -10,9 +10,12 @@ Executing command: `python  "/Users/Sapthau/Desktop/template.nosync/analysis/cod
 /Users/Sapthau/anaconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
+/Users/Sapthau/anaconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+Inputs contain missing values. Dropping rows with missing observations.
+  super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-07 11:40:08
+Makelog ended: 2023-07-07 13:49:04
 Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
 --------------------------------------------------------------------------------
