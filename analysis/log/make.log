@@ -1,12 +1,10 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-07 11:23:38
+Makelog started: 2023-07-07 11:40:04
 Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
-WARNING! The following target files have been modified according to git status:
-/Users/Sapthau/Desktop/template.nosync/data/output/data_cleaned.csv
 Version logs successfully written!
 Executing command: `python  "/Users/Sapthau/Desktop/template.nosync/analysis/code/analyze_data.py" `
 /Users/Sapthau/anaconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
@@ -15,6 +13,6 @@ Inputs contain missing values. Dropping rows with missing observations.
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-07 11:23:41
+Makelog ended: 2023-07-07 11:40:08
 Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
 --------------------------------------------------------------------------------
