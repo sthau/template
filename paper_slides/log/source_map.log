@@ -1,4 +1,5 @@
 destination | source
 input/regression.csv | /Users/Sapthau/Desktop/template.nosync/analysis/output/regression.csv
 input/regression_post1960.csv | /Users/Sapthau/Desktop/template.nosync/analysis/output/regression_post1960.csv
+input/regression_clustered.csv | /Users/Sapthau/Desktop/template.nosync/analysis/output/regression_clustered.csv
 input/chips_sold.pdf | /Users/Sapthau/Desktop/template.nosync/data/output/chips_sold.pdf

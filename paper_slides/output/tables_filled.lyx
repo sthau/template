@@ -760,6 +760,302 @@ Note: Table notes
 
 
 
+
+
+
+
+\begin_layout Standard
+
+\noindent
+
+\begin_inset Float table
+
+placement H
+
+wide false
+
+sideways false
+
+status open
+
+
+
+\begin_layout Plain Layout
+
+\begin_inset Caption Standard
+
+
+
+\begin_layout Plain Layout
+
+Table Title
+
+\begin_inset CommandInset label
+
+LatexCommand label
+
+name "tab:regression_clustered"
+
+
+
+\end_inset
+
+
+
+
+
+\end_layout
+
+
+
+\end_inset
+
+
+
+
+
+\begin_inset VSpace defskip
+
+\end_inset
+
+
+
+
+
+\end_layout
+
+
+
+\begin_layout Plain Layout
+
+\align center
+
+\begin_inset Tabular
+
+<lyxtabular version="3" rows="2" columns="4">
+
+<features tabularvalignment="middle">
+
+<column alignment="center" valignment="top">
+
+<column alignment="center" valignment="top">
+
+<column alignment="center" valignment="top">
+
+<column alignment="center" valignment="top">
+
+<row>
+
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+\begin_inset Formula $\beta$
+
+\end_inset
+
+
+
+
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+Std.
+
+ Err.
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+p-value
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+</row>
+
+<row>
+
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+Post-TV
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+4,960.73
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+29.43
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+
+\begin_inset Text
+
+
+
+\begin_layout Plain Layout
+
+0.00
+
+\end_layout
+
+
+
+\end_inset
+
+</cell>
+
+</row>
+
+</lyxtabular>
+
+
+
+\end_inset
+
+
+
+
+
+\end_layout
+
+
+
+\begin_layout Plain Layout
+
+\align center
+
+\begin_inset VSpace defskip
+
+\end_inset
+
+
+
+
+
+\end_layout
+
+
+
+\begin_layout Plain Layout
+
+
+
+\size footnotesize
+
+Note: Output from a regression of chips sold on a constant, an indicator for the introduction of television in the location, along with county and year fixed effects. Standard errors are clustered at the county level.
+
+\end_layout
+
+
+
+\end_inset
+
+
+
+
+
+\end_layout
+
+
+
 \end_body
 
 \end_document

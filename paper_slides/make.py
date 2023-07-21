@@ -42,12 +42,8 @@ gs.write_version_logs(PATHS)
 
 ### FILL TABLES
 gs.tablefill(template = 'code/tables.lyx', 
-             inputs   = ['input/regression.csv','input/regression_post1960.csv' ], 
+             inputs   = ['input/regression.csv','input/regression_post1960.csv', 'input/regression_clustered.csv'], 
              output   = 'output/tables_filled.lyx')
-
-# gs.tablefill(template = 'code/tables.lyx', 
-#              inputs   = 'input/regression_post1960.csv', 
-#              output   = 'output/tables_filled.lyx')
 
 ### RUN SCRIPTS
 gs.run_lyx(PATHS, program = 'code/paper.lyx')
