@@ -5,7 +5,6 @@ from linearmodels import PanelOLS
 ### DEFINE
 def main():
     df = import_data()
-    df
     fit = run_regression(df)
     formatted = format_model(fit)
 
