@@ -1,4 +1,4 @@
 destination | source
-input/lib | /Users/Sapthau/Desktop/template.nosync/lib
-input/tv.csv | /Users/Sapthau/Desktop/template.nosync/raw/tv.csv
-input/chips.csv | /Users/Sapthau/Desktop/template.nosync/raw/chips.csv
+input/lib | /scratch/users/samthau/template/lib
+input/tv.csv | /scratch/users/samthau/template/raw/tv.csv
+input/chips.csv | /scratch/users/samthau/template/raw/chips.csv
