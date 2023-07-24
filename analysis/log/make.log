@@ -1,21 +1,26 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-07-07 14:41:25
-Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
+Makelog started: 2023-07-21 17:11:50
+Working directory: /scratch/users/samthau/template/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
+WARNING! The following target files have been modified according to git status:
+/scratch/users/samthau/template/data/output/data_cleaned.csv
 Version logs successfully written!
-Executing command: `python  "/Users/Sapthau/Desktop/template.nosync/analysis/code/analyze_data.py" `
-/Users/Sapthau/anaconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+Executing command: `python  "/scratch/users/samthau/template/analysis/code/analyze_data.py" `
+/home/users/samthau/miniconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/Users/Sapthau/anaconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+/home/users/samthau/miniconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+Inputs contain missing values. Dropping rows with missing observations.
+  super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
+/home/users/samthau/miniconda3/envs/template/lib/python3.11/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-07-07 14:41:29
-Working directory: /Users/Sapthau/Desktop/template.nosync/analysis
+Makelog ended: 2023-07-21 17:12:14
+Working directory: /scratch/users/samthau/template/analysis
 --------------------------------------------------------------------------------

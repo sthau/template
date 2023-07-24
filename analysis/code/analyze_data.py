@@ -24,6 +24,14 @@ def main():
     with open('output/regression_post1960.csv', 'w') as f:
         f.write('<tab:regression_post1960>' + '\n')
         formatted_subset.to_csv(f, sep = '\t', index = False, header = False)
+
+    # cluster by county
+    fit_clustered = run_regression(df, cluster = True)
+    formatted_clustered = format_model(fit_clustered)
+
+    with open('output/regression_clustered.csv', 'w') as f:
+        f.write('<tab:regression_clustered>' + '\n')
+        formatted_clustered.to_csv(f, sep = '\t', index = False, header = False)
     
    
     
@@ -33,10 +41,15 @@ def import_data():
     
     return(df)
 
-def run_regression(df):
+def run_regression(df, cluster = False):
     df = df.set_index(['county_id', 'year'])
     model = PanelOLS.from_formula('chips_sold ~ 1 + post_tv + EntityEffects + TimeEffects', data = df)
-    fit = model.fit()
+
+    if cluster == False:
+        fit = model.fit()
+    else:
+        # cluster by enetity (county)
+        fit = model.fit(cov_type = 'clustered', cluster_entity = True)
     
     return(fit)
     
